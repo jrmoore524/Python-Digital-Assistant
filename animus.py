@@ -1,3 +1,11 @@
+#Dependencies
+#pip install speechrecognition
+#pip install playsound
+#pip install gTTS
+#pip install pyaudio
+#pip install Pillow
+#pip install tkinter
+
 #Import packages
 import speech_recognition as sr
 import webbrowser
