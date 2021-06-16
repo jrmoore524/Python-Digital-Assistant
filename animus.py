@@ -103,7 +103,7 @@ def click_exit():
 
 #Function for click Animus button
 def click_Animus():
-    command = record_audio('How can I help you? Just say one of my commands for assistance.')
+    command = record_audio('How can I help you? Just say one of my commands, or what you want to search for.')
     print('Command: ' + command)
     if 'Animus' in command:
         Animus_speak('What can I help you with? Click the Animus button to say a command now, or just click one of my commands when I am needed.')
