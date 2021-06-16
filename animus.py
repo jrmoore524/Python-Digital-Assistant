@@ -4,7 +4,7 @@
 #pip install gTTS
 #pip install pyaudio
 #pip install Pillow
-#pip install tkinter
+#pip install tk
 
 #Import packages
 import speech_recognition as sr
