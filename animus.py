@@ -64,13 +64,13 @@ def click_Animus_commands():
 #Function for click name button    
 def click_name():
     Animus_speak('My name is Animus, and I am from the planet Cybertron!')
-    Animus_speak('What can I help you with? Click the Animus button to say a command now, or just click one of my commands when I am needed.')
+    Animus_speak('What else can I help you with?')
 
 #Function for click time button    
 def click_time():
     Animus_speak('The date and time are.')
     Animus_speak(time.ctime())
-    Animus_speak('What can I help you with? Click the Animus button to say a command now, or just click one of my commands when I am needed.')
+    Animus_speak('What else can I help you with?')
 
 #Function for click search button   
 def click_search():
@@ -78,7 +78,7 @@ def click_search():
     url = 'https://google.com/search?q=' + search
     webbrowser.get().open(url)
     Animus_speak('Here is what I found for' + search)
-    Animus_speak('What can I help you with? Click the Animus button to say a command now, or just click one of my commands when I am needed.')
+    Animus_speak('What else can I help you with?')
 
 #Function for click find location button
 def click_find_location():
@@ -86,7 +86,7 @@ def click_find_location():
     url = 'https://google.nl/maps/place/' + location + '/&amp;'
     webbrowser.get().open(url)
     Animus_speak(' Here is the location' + location)
-    Animus_speak('What can I help you with? Click the Animus button to say a command now, or just click one of my commands when I am needed.')
+    Animus_speak('What else can I help you with?')
 
 #Function for click watch video button    
 def click_watch_video():
@@ -94,7 +94,7 @@ def click_watch_video():
     url = 'https://www.youtube.com/results?search_query=' + listnen_to
     webbrowser.get().open(url)
     Animus_speak(' Here is the' + listnen_to + ' video that you requested')
-    Animus_speak('What can I help you with? Click the Animus button to say a command now, or just click one of my commands when I am needed.')
+    Animus_speak('What else can I help you with?')
     
 #Function for click exit button    
 def click_exit():
